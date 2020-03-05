@@ -2,6 +2,7 @@
     "name": "aminireza-ir/cpanel",
     "description": "working wtih Cpanel API easily",
     "type": "library",
+    "license": "CPANEL",
     "authors": [
         {
             "name": "Reza Amini",
@@ -13,5 +14,6 @@
         "psr-4": {
             "Src\\" : "src"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
