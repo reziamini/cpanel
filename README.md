@@ -4,7 +4,7 @@ You can using from this library for working easily with Cpanel-API.
 
 ### Install Guide :
 ```shell
-  composer require aminireza-ir/cpanel
+composer require aminireza-ir/cpanel
 ```
 
 How to Connect to Cpanel : 
