@@ -1,0 +1,17 @@
+{
+    "name": "aminireza-ir/cpanel",
+    "description": "working wtih Cpanel API easily",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Reza Amini",
+            "email": "rezaaminiroyal@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Src\\" : "src"
+        }
+    }
+}
