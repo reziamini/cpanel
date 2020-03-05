@@ -2,7 +2,6 @@
     "name": "aminireza-ir/cpanel",
     "description": "working wtih Cpanel API easily",
     "type": "library",
-    "license": "NLPL",
     "authors": [
         {
             "name": "Reza Amini",
