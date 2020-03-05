@@ -2,7 +2,7 @@
 A simple library for using from Cpanel-API easily
 You can using from this library for working easily with Cpanel-API.
 
-###Install Guide :
+### Install Guide :
 ```shell
   composer require aminireza-ir/cpanel
 ```
@@ -26,7 +26,7 @@ echo $cpanel->SendWithArray('Bandwidth', 'getbwdata', 'username');
 
 ```
 
-###Examples
+### Examples
 
 You can see a simple example for add a new cron job to cpanel :
 ```php
