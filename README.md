@@ -25,6 +25,19 @@ $cpanel = new Methods([
 echo $cpanel->SendWithArray('Bandwidth', 'getbwdata', 'username');
 
 ```
+* If you want using from password you should following this code : 
+
+```php
+<?php
+
+$cpanel = new Methods([
+    'host' => '127.0.0.1',
+    'password' => '!password1234',
+    'username' => 'root',
+    'port' => 2087,
+]);
+
+```
 
 ### Examples
 
