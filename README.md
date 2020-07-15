@@ -25,7 +25,7 @@ $cpanel = new Methods([
 echo $cpanel->SendWithArray('Bandwidth', 'getbwdata', 'username');
 
 ```
-* If you want using from password you should following this code : 
+* If you want to use password you should follow this code : 
 
 ```php
 <?php
@@ -41,7 +41,7 @@ $cpanel = new Methods([
 
 ### Examples
 
-You can see a simple example for add a new cron job to cpanel :
+You can see a simple example to add a new cron job in cpanel :
 ```php
 <?php
 
