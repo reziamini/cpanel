@@ -28,11 +28,12 @@ class Request
 
 
     private function createHeader(){
-        if($this->type == 'hash')
+        if($this->type == 'hash'){
             return "Authorization: whm {$this->user}:{$this->api_key}";
-        else if($this->type == 'password'){
-            return 'Authorization: Basic ' . base64_encode($this->user . ':' .$this->api_key);
         }
+
+        return 'Authorization: Basic ' . base64_encode($this->user . ':' .$this->api_key);
+
     }
 
 
@@ -46,9 +47,8 @@ class Request
             curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
             curl_setopt($curl, CURLOPT_URL, $query);
             return curl_exec($curl);
-        } else {
-            return $this->Auth();
         }
+        return $this->Auth();
     }
 
     protected function Auth()
