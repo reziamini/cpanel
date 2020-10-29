@@ -1,6 +1,6 @@
 # Cpanel
 A simple library for using from Cpanel-API easily
-You can using from this library for working easily with Cpanel-API.
+You can use this library to work easily with Cpanel-API.
 
 ### Install Guide :
 ```shell
